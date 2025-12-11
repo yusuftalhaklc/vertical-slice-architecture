@@ -9,6 +9,7 @@ using VSA.Application.Features.CategoryFeatures.GetCategoryByIdFeature.Query;
 
 namespace VSA.Application.Features.CategoryFeatures.GetCategoryByIdFeature.Controller
 {
+    [ApiController]
     [ApiExplorerSettings(GroupName = "Category")]
     public class GetCategoryByIdController : ControllerBase
     {

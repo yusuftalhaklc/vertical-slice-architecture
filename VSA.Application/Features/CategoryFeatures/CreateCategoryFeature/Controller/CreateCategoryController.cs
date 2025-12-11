@@ -8,6 +8,7 @@ using MediatR;
 using VSA.Application.Features.CategoryFeatures.CreateCategoryFeature.Command;
 namespace VSA.Application.Features.CategoryFeatures.CreateCategoryFeature.Controller
 {
+    [ApiController]
     [ApiExplorerSettings(GroupName = "Category")]
     public class CreateCategoryController : ControllerBase
     {
@@ -18,7 +19,7 @@ namespace VSA.Application.Features.CategoryFeatures.CreateCategoryFeature.Contro
             _mediator = mediator;
         }
 
-        [HttpPost("/api/customers")]
+        [HttpPost("/api/categories")]
         public async Task<IActionResult> CreateCategory([FromBody] CreateCategoryCommand command)
         {
             var result = await _mediator.Send(command);

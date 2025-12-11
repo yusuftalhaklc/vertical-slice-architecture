@@ -9,6 +9,7 @@ using VSA.Application.Features.ProductFeatures.GetProductsFeature.Query;
 
 namespace VSA.Application.Features.ProductFeatures.GetProductsFeature.Controller
 {
+    [ApiController]
     [ApiExplorerSettings(GroupName = "Product")]
     public class GetProductsController : ControllerBase
     {

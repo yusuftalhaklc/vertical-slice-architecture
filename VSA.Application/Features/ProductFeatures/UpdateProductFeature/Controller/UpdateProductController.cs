@@ -9,6 +9,7 @@ using VSA.Application.Features.ProductFeatures.UpdateProductFeature.Command;
 
 namespace VSA.Application.Features.ProductFeatures.UpdateProductFeature.Controller
 {
+    [ApiController]
     [ApiExplorerSettings(GroupName = "Product")]
     public class UpdateProductController : ControllerBase
     {

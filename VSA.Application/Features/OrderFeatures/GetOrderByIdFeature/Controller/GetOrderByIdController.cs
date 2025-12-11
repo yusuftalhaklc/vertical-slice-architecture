@@ -9,6 +9,7 @@ using VSA.Application.Features.OrderFeatures.GetOrderByIdFeature.Query;
 
 namespace VSA.Application.Features.OrderFeatures.GetOrderByIdFeature.Controller
 {
+    [ApiController]
     [ApiExplorerSettings(GroupName = "Order")]
     public class GetOrderByIdController : ControllerBase
     {

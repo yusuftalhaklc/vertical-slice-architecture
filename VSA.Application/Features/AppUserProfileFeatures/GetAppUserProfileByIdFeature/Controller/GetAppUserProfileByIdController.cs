@@ -9,6 +9,7 @@ using VSA.Application.Features.AppUserProfileFeatures.GetAppUserProfileByIdFeatu
 
 namespace VSA.Application.Features.AppUserProfileFeatures.GetAppUserProfileByIdFeature.Controller
 {
+    [ApiController]
     [ApiExplorerSettings(GroupName = "AppUserProfile")]
     public class GetAppUserProfileByIdController : ControllerBase
     {

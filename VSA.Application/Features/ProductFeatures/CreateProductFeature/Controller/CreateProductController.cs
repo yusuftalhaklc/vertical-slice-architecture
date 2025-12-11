@@ -9,6 +9,7 @@ using VSA.Application.Features.ProductFeatures.CreateProductFeature.Command;
 
 namespace VSA.Application.Features.ProductFeatures.CreateProductFeature.Controller
 {
+    [ApiController]
     [ApiExplorerSettings(GroupName = "Product")]
     public class CreateProductController : ControllerBase
     {

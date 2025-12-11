@@ -9,6 +9,7 @@ using VSA.Application.Features.OrderDetailFeatures.UpdateOrderDetailFeature.Comm
 
 namespace VSA.Application.Features.OrderDetailFeatures.UpdateOrderDetailFeature.Controller
 {
+    [ApiController]
     [ApiExplorerSettings(GroupName = "OrderDetail")]
     public class UpdateOrderDetailController : ControllerBase
     {

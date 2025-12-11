@@ -9,6 +9,7 @@ using VSA.Application.Features.AppUserFeatures.GetAppUserByIdFeature.Query;
 
 namespace VSA.Application.Features.AppUserFeatures.GetAppUserByIdFeature.Controller
 {
+    [ApiController]
     [ApiExplorerSettings(GroupName = "AppUser")]
     public class GetAppUserByIdController : ControllerBase
     {

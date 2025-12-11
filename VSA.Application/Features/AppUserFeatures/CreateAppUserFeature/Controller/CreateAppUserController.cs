@@ -9,6 +9,7 @@ using VSA.Application.Features.AppUserFeatures.CreateAppUserFeature.Command;
 
 namespace VSA.Application.Features.AppUserFeatures.CreateAppUserFeature.Controller
 {
+    [ApiController]
     [ApiExplorerSettings(GroupName = "AppUser")]
     public class CreateAppUserController : ControllerBase
     {

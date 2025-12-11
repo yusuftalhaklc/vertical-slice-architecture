@@ -9,6 +9,7 @@ using VSA.Application.Features.CategoryFeatures.UpdateCategoryFeature.Command;
 
 namespace VSA.Application.Features.CategoryFeatures.UpdateCategoryFeature.Controller
 {
+    [ApiController]
     [ApiExplorerSettings(GroupName = "Category")]
     public class UpdateCategoryController : ControllerBase
     {
