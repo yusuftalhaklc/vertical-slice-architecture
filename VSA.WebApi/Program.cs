@@ -1,4 +1,9 @@
+using VSA.Application.DependencyResolvers;
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddDbContextService();
+builder.Services.AddMediatrService();
 
 builder.Services.AddControllers();
 
